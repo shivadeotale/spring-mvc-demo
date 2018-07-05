@@ -3,7 +3,7 @@ package com.mkyong.web.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.annotation.PostConstruct;
+//import javax.annotation.PostConstruct;
 
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -68,7 +68,7 @@ public class AjaxController {
 	}
 
 	// Init some users for testing
-	@PostConstruct
+	//@PostConstruct
 	private void iniDataForTesting() {
 		users = new ArrayList<User>();
 

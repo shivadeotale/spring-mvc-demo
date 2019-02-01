@@ -30,6 +30,10 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter {
 		
 		
 		
+		
+		
+		
+		
 		return viewResolver;
 	}
  

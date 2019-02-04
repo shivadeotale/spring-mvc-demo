@@ -19,7 +19,7 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter {
 		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
 		System.out.println("Test Change");
 	}
-	
+
 	@Bean
 	public InternalResourceViewResolver viewResolver() {
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();

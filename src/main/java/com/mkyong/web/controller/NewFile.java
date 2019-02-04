@@ -6,8 +6,6 @@ public class NewFile {
 
 		System.out.println("My First Git Application :hello worls ");
 		System.out.println("My Second Git Application :hello worls ");
-
-
 	}
 
 }

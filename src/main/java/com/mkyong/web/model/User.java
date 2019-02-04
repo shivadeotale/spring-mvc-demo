@@ -68,6 +68,12 @@ public class User {
 
 	@Override
 	public String toString() {
+		
+		
+		
+		System.out.println("comment added by smita ....");
+		
+		
 		return "User [username=" + username + ", password=" + password + ", email=" + email + ", phone=" + phone
 				+ ", address=" + address + "]";
 	}
